@@ -91,8 +91,8 @@ public class MonteCarloTreeSearch extends AdversarialSearch {
     			max_playout = node.getPlayouts(); 
     			move_taken = node.getMoveTaken(); 
     			node_num = counter;
-    			System.out.println("\t Move taken: " + move_taken.toString());
     		}
+			System.out.println("\t Move taken: " + move_taken.toString());
     		counter++; 
     	}
     	System.out.println(); 
